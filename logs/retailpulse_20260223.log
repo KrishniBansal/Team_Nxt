@@ -114,3 +114,23 @@
 2026-02-23 15:20:14,706 - __main__ - INFO - Saved individual chart: chart3_loyalty_distribution.png
 2026-02-23 15:20:14,878 - __main__ - INFO - Saved individual chart: chart4_at_risk_customers.png
 2026-02-23 15:20:14,879 - __main__ - INFO - Dashboard generation completed successfully
+2026-02-23 16:24:49,766 - __main__ - INFO - ============================================================
+2026-02-23 16:24:49,767 - __main__ - INFO - RetailPulse - Predictive Analytics Engine Started
+2026-02-23 16:24:49,767 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 16:24:49,767 - __main__ - INFO - Starting next month spend prediction
+2026-02-23 16:24:49,899 - __main__ - INFO - Spend prediction completed for 462 customers
+2026-02-23 16:24:49,899 - __main__ - INFO - Starting restock flag prediction
+2026-02-23 16:24:49,912 - __main__ - INFO - Restock prediction completed. 76 products flagged.
+2026-02-23 16:24:49,912 - __main__ - INFO - Starting promotion sensitivity analysis
+2026-02-23 16:24:49,943 - __main__ - INFO - Promotion sensitivity analysis completed
+2026-02-23 16:24:49,944 - __main__ - INFO - Predictive analytics engine completed
+2026-02-23 16:58:34,049 - __main__ - INFO - ============================================================
+2026-02-23 16:58:34,050 - __main__ - INFO - RetailPulse - Predictive Analytics Engine Started
+2026-02-23 16:58:34,054 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 16:58:34,054 - __main__ - INFO - Starting next month spend prediction
+2026-02-23 16:58:34,390 - __main__ - INFO - Spend prediction completed for 462 customers
+2026-02-23 16:58:34,390 - __main__ - INFO - Starting restock flag prediction
+2026-02-23 16:58:34,416 - __main__ - INFO - Restock prediction completed. 76 products flagged.
+2026-02-23 16:58:34,417 - __main__ - INFO - Starting promotion sensitivity analysis
+2026-02-23 16:58:34,485 - __main__ - INFO - Promotion sensitivity analysis completed
+2026-02-23 16:58:34,485 - __main__ - INFO - Predictive analytics engine completed

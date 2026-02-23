@@ -70,15 +70,33 @@ Vidita contributed critical visualization and dashboard components to the Retail
 - 4 test customers with transaction history
 - 5 transactions with line items for comprehensive testing
 
----
+### 4. **Database Schema & ER Design**
+**Purpose**: Defines the relational data model and entity relationships for RetailPulse analytics.
 
-## Database Schema Reference
-The visualizations integrate with the following core tables:
-- **stores**: Location and store metadata
-- **customer_details**: Loyalty status, segments, points
-- **store_sales_header**: Transaction-level data
-- **store_sales_line_items**: Product-level transaction details
-- **products**: Product catalog with restock flags
+**Core Tables**:
+- **stores**: Store ID, name, region, location
+- **products**: Product ID, name, category, restock_needed flag
+- **customer_details**: Customer ID, loyalty tier, segment, points balance
+- **transactions** (store_sales_header): Transaction ID, store ID, customer ID, date, total amount
+- **line_items** (store_sales_line_items): Line item ID, transaction ID, product ID, quantity, amount
+
+**Analytics Tables**:
+- **rfm_summary**: RFM scoring for customer segmentation
+- **customer_predictions**: Churn risk and loyalty predictions
+- **customer_loyalty**: Tier-based loyalty point allocations and thresholds
+
+**ER Relationships**:
+- One Store → Many Transactions
+- One Customer → Many Transactions
+- One Transaction → Many Line Items
+- One Product → Many Line Items
+- Customer → Loyalty Tier Rules (Bronze, Silver, Gold)
+
+**Key Constraints**:
+- Primary keys on all entity tables
+- Foreign key relationships for referential integrity
+- Rejection tracking tables mirror core schema for data quality monitoring
+- Indexes on frequently queried columns (store_id, customer_id, transaction_date)
 
 ---
 
@@ -105,8 +123,8 @@ Uses fixtures from conftest.py for isolated test environments
 ---
 
 ## Key Innovations
-✨ **Bonus Chart**: At-Risk customer detection provides actionable insights for customer retention  
-✨ **Multi-Format Output**: Static (PNG) + Interactive (Streamlit) for different stakeholder needs  
-✨ **Professional Formatting**: Localized currency symbols, optimized color schemes, responsive layouts  
-✨ **Robust Error Handling**: Graceful degradation when data unavailable; individual chart failures don't break dashboard  
+✨ **Bonus Chart**: At-Risk customer detection provides actionable insights for customer retention
+✨ **Multi-Format Output**: Static (PNG) + Interactive (Streamlit) for different stakeholder needs
+✨ **Professional Formatting**: Localized currency symbols, optimized color schemes, responsive layouts
+✨ **Robust Error Handling**: Graceful degradation when data unavailable; individual chart failures don't break dashboard
 ✨ **Performance Optimization**: Streamlit caching reduces database queries; smart fixture design for testing
