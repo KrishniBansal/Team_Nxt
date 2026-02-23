@@ -1,0 +1,2 @@
+rule_id,rule_name,points_per_unit_spend,min_spend_threshold,bonus_points,start_date,end_date
+1,Standard,0.01,1000,50,2024-01-01,2025-01-01

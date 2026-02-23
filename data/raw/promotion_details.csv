@@ -1,0 +1,6 @@
+promotion_id,promotion_name,start_date,end_date,discount_percentage,applicable_category
+1,Festive Sale,2024-01-01,2024-12-31,10,Electronics
+2,Clearance,2024-01-01,2024-12-31,20,Apparel
+3,Weekend Offer,2024-01-01,2024-12-31,15,Grocery
+4,Flash Deal,2024-01-01,2024-12-31,25,Electronics
+5,Mega Discount,2024-01-01,2024-12-31,30,Home
