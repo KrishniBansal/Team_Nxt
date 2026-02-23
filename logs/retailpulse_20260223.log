@@ -47,3 +47,70 @@
 2026-02-23 14:59:10,199 - __main__ - INFO - Restock prediction completed. 0 products flagged.
 2026-02-23 14:59:10,199 - __main__ - INFO - Starting promotion sensitivity analysis
 2026-02-23 14:59:10,200 - __main__ - INFO - Predictive analytics engine completed
+2026-02-23 15:17:50,446 - __main__ - INFO - ============================================================
+2026-02-23 15:17:50,446 - __main__ - INFO - RetailPulse Database Setup
+2026-02-23 15:17:50,446 - __main__ - INFO - ============================================================
+2026-02-23 15:17:50,446 - __main__ - INFO - Connecting to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 15:17:50,446 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 15:17:50,447 - __main__ - INFO - All tables created successfully!
+2026-02-23 15:17:50,449 - __main__ - INFO - Database setup completed successfully
+2026-02-23 15:18:01,317 - __main__ - INFO - ============================================================
+2026-02-23 15:18:01,318 - __main__ - INFO - RetailPulse Database Setup
+2026-02-23 15:18:01,318 - __main__ - INFO - ============================================================
+2026-02-23 15:18:01,318 - __main__ - INFO - Connecting to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 15:18:01,319 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 15:18:01,320 - __main__ - INFO - All tables created successfully!
+2026-02-23 15:18:01,322 - __main__ - INFO - Database setup completed successfully
+2026-02-23 15:18:05,495 - __main__ - INFO - ======================================================================
+2026-02-23 15:18:05,495 - __main__ - INFO - RetailPulse ETL Pipeline Started
+2026-02-23 15:18:05,496 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 15:18:05,496 - __main__ - INFO - Processing stores.csv...
+2026-02-23 15:18:05,499 - __main__ - INFO - Read 5 rows from c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\stores.csv
+2026-02-23 15:18:05,512 - __main__ - INFO -   stores: Loaded 5, Rejected 0
+2026-02-23 15:18:05,512 - __main__ - INFO - Processing products.csv...
+2026-02-23 15:18:05,514 - __main__ - INFO - Read 80 rows from c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\products.csv
+2026-02-23 15:18:05,531 - __main__ - INFO -   products: Loaded 80, Rejected 0
+2026-02-23 15:18:05,531 - __main__ - INFO - Processing promotion_details.csv...
+2026-02-23 15:18:05,533 - __main__ - INFO - Read 5 rows from c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\promotion_details.csv
+2026-02-23 15:18:05,544 - __main__ - INFO -   promotion_details: Loaded 5, Rejected 0
+2026-02-23 15:18:05,544 - __main__ - INFO - Processing loyalty_rules.csv...
+2026-02-23 15:18:05,546 - __main__ - INFO - Read 1 rows from c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\loyalty_rules.csv
+2026-02-23 15:18:05,557 - __main__ - INFO -   loyalty_rules: Loaded 1, Rejected 0
+2026-02-23 15:18:05,557 - __main__ - INFO - Processing customer_details.csv...
+2026-02-23 15:18:05,560 - __main__ - INFO - Read 500 rows from c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\customer_details.csv
+2026-02-23 15:18:05,601 - __main__ - INFO -   customer_details: Loaded 500, Rejected 0
+2026-02-23 15:18:05,601 - __main__ - INFO - Processing store_sales_header.csv...
+2026-02-23 15:18:05,605 - __main__ - INFO - Read 5096 rows from c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\store_sales_header.csv
+2026-02-23 15:18:06,025 - __main__ - INFO -   store_sales_header: Loaded 4871, Rejected 225
+2026-02-23 15:18:06,025 - __main__ - INFO - Processing store_sales_line_items.csv...
+2026-02-23 15:18:06,034 - __main__ - INFO - Read 16904 rows from c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\store_sales_line_items.csv
+2026-02-23 15:18:07,538 - __main__ - INFO -   store_sales_line_items: Loaded 15542, Rejected 1362
+2026-02-23 15:18:07,540 - __main__ - INFO - ETL Pipeline completed with exit code: 0
+2026-02-23 15:18:15,933 - __main__ - INFO - ============================================================
+2026-02-23 15:18:15,934 - __main__ - INFO - RetailPulse - Loyalty & RFM Engine Started
+2026-02-23 15:18:15,934 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 15:18:15,935 - __main__ - INFO - Starting loyalty points calculation
+2026-02-23 15:18:15,955 - __main__ - INFO - Loyalty points calculation completed for 462 customers
+2026-02-23 15:18:15,955 - __main__ - INFO - Starting RFM segmentation
+2026-02-23 15:18:16,082 - __main__ - INFO - RFM segmentation completed
+2026-02-23 15:18:16,082 - __main__ - INFO - Loyalty & RFM engine completed successfully
+2026-02-23 15:18:22,636 - __main__ - INFO - ============================================================
+2026-02-23 15:18:22,636 - __main__ - INFO - RetailPulse - Predictive Analytics Engine Started
+2026-02-23 15:18:22,637 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 15:18:22,637 - __main__ - INFO - Starting next month spend prediction
+2026-02-23 15:18:22,766 - __main__ - INFO - Spend prediction completed for 462 customers
+2026-02-23 15:18:22,767 - __main__ - INFO - Starting restock flag prediction
+2026-02-23 15:18:22,785 - __main__ - INFO - Restock prediction completed. 76 products flagged.
+2026-02-23 15:18:22,785 - __main__ - INFO - Starting promotion sensitivity analysis
+2026-02-23 15:18:22,822 - __main__ - INFO - Promotion sensitivity analysis completed
+2026-02-23 15:18:22,822 - __main__ - INFO - Predictive analytics engine completed
+2026-02-23 15:20:12,199 - __main__ - INFO - Starting RetailPulse Dashboard Generator
+2026-02-23 15:20:12,202 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 15:20:12,202 - __main__ - INFO - Generating combined dashboard
+2026-02-23 15:20:14,045 - __main__ - INFO - Saved combined dashboard: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../output\dashboard.png
+2026-02-23 15:20:14,068 - __main__ - INFO - Generating individual charts
+2026-02-23 15:20:14,264 - __main__ - INFO - Saved individual chart: chart1_sales_by_store.png
+2026-02-23 15:20:14,496 - __main__ - INFO - Saved individual chart: chart2_top_products.png
+2026-02-23 15:20:14,706 - __main__ - INFO - Saved individual chart: chart3_loyalty_distribution.png
+2026-02-23 15:20:14,878 - __main__ - INFO - Saved individual chart: chart4_at_risk_customers.png
+2026-02-23 15:20:14,879 - __main__ - INFO - Dashboard generation completed successfully
