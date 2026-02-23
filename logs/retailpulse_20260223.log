@@ -1,0 +1,33 @@
+2026-02-23 14:47:28,010 - __main__ - INFO - ============================================================
+2026-02-23 14:47:28,010 - __main__ - INFO - RetailPulse Database Setup
+2026-02-23 14:47:28,010 - __main__ - INFO - ============================================================
+2026-02-23 14:47:28,010 - __main__ - INFO - Connecting to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 14:47:28,011 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 14:47:28,059 - __main__ - INFO - All tables created successfully!
+2026-02-23 14:47:28,060 - __main__ - INFO - Database setup completed successfully
+2026-02-23 14:47:40,624 - __main__ - INFO - ======================================================================
+2026-02-23 14:47:40,624 - __main__ - INFO - RetailPulse ETL Pipeline Started
+2026-02-23 14:47:40,626 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 14:47:40,626 - __main__ - INFO - Processing stores.csv...
+2026-02-23 14:47:40,626 - __main__ - WARNING - File not found: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\stores.csv
+2026-02-23 14:47:40,626 - __main__ - INFO -   stores: Loaded 0, Rejected 0
+2026-02-23 14:47:40,626 - __main__ - INFO - Processing products.csv...
+2026-02-23 14:47:40,626 - __main__ - WARNING - File not found: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\products.csv
+2026-02-23 14:47:40,626 - __main__ - INFO -   products: Loaded 0, Rejected 0
+2026-02-23 14:47:40,626 - __main__ - INFO - Processing promotion_details.csv...
+2026-02-23 14:47:40,628 - __main__ - WARNING - File not found: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\promotion_details.csv
+2026-02-23 14:47:40,628 - __main__ - INFO -   promotion_details: Loaded 0, Rejected 0
+2026-02-23 14:47:40,628 - __main__ - INFO - Processing loyalty_rules.csv...
+2026-02-23 14:47:40,628 - __main__ - WARNING - File not found: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\loyalty_rules.csv
+2026-02-23 14:47:40,628 - __main__ - INFO -   loyalty_rules: Loaded 0, Rejected 0
+2026-02-23 14:47:40,628 - __main__ - INFO - Processing customer_details.csv...
+2026-02-23 14:47:40,628 - __main__ - WARNING - File not found: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\customer_details.csv
+2026-02-23 14:47:40,629 - __main__ - INFO -   customer_details: Loaded 0, Rejected 0
+2026-02-23 14:47:40,629 - __main__ - INFO - Processing store_sales_header.csv...
+2026-02-23 14:47:40,630 - __main__ - WARNING - File not found: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\store_sales_header.csv
+2026-02-23 14:47:40,630 - __main__ - INFO -   store_sales_header: Loaded 0, Rejected 0
+2026-02-23 14:47:40,630 - __main__ - INFO - Processing store_sales_line_items.csv...
+2026-02-23 14:47:40,631 - __main__ - WARNING - File not found: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../data/raw\store_sales_line_items.csv
+2026-02-23 14:47:40,631 - __main__ - INFO -   store_sales_line_items: Loaded 0, Rejected 0
+2026-02-23 14:47:40,632 - __main__ - WARNING - ETL completed with 7 warning(s)
+2026-02-23 14:47:40,632 - __main__ - INFO - ETL Pipeline completed with exit code: 1
