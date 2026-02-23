@@ -31,3 +31,19 @@
 2026-02-23 14:47:40,631 - __main__ - INFO -   store_sales_line_items: Loaded 0, Rejected 0
 2026-02-23 14:47:40,632 - __main__ - WARNING - ETL completed with 7 warning(s)
 2026-02-23 14:47:40,632 - __main__ - INFO - ETL Pipeline completed with exit code: 1
+2026-02-23 14:51:00,433 - __main__ - INFO - ============================================================
+2026-02-23 14:51:00,433 - __main__ - INFO - RetailPulse - Loyalty & RFM Engine Started
+2026-02-23 14:51:00,434 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 14:51:00,434 - __main__ - INFO - Starting loyalty points calculation
+2026-02-23 14:51:00,438 - __main__ - INFO - Loyalty points calculation completed for 0 customers
+2026-02-23 14:51:00,438 - __main__ - INFO - Starting RFM segmentation
+2026-02-23 14:51:00,439 - __main__ - INFO - Loyalty & RFM engine completed successfully
+2026-02-23 14:59:10,191 - __main__ - INFO - ============================================================
+2026-02-23 14:59:10,191 - __main__ - INFO - RetailPulse - Predictive Analytics Engine Started
+2026-02-23 14:59:10,192 - __main__ - INFO - Connected to database: c:\Users\vidit\Documents\Coding\Development\Hackathons\HCL\Team_Nxt\src\../db/retail.db
+2026-02-23 14:59:10,192 - __main__ - INFO - Starting next month spend prediction
+2026-02-23 14:59:10,195 - __main__ - WARNING - No transaction data found for spend prediction
+2026-02-23 14:59:10,195 - __main__ - INFO - Starting restock flag prediction
+2026-02-23 14:59:10,199 - __main__ - INFO - Restock prediction completed. 0 products flagged.
+2026-02-23 14:59:10,199 - __main__ - INFO - Starting promotion sensitivity analysis
+2026-02-23 14:59:10,200 - __main__ - INFO - Predictive analytics engine completed
